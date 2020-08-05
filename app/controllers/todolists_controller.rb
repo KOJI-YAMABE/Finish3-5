@@ -14,5 +14,4 @@ class TodolistsController < ApplicationController
   def list_params
   	params.require(:list).permit(:title, :body)
   end
-
 end
